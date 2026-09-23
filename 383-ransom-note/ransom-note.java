@@ -44,7 +44,7 @@ class Solution {
                 count2 = map2.get(c);
             }
 
-            if (count1 > count2) { //map1 < map2
+            if (count2 < count1) { //map1 < map2 //have < need then false
                 return false;
             }
         }
